@@ -16,10 +16,11 @@ int main() {
         if (f == 0) {
             cout << a << endl;
             cout << f;
+            return 0;
         }else err = abs((b - a) / 2);
     }while(err >= exp(1) - 6 && f != 0);
-    if(f * g < 0) a = x;
-    else b = x;
+    if(f * g < 0) b = x;
+    else a = x;
     h = pow(x, 2) * cos(x) + 1;
     cout << x << endl;
     cout << h;
